@@ -152,3 +152,157 @@ foreach ($numbers as $position => $num){
  
 ![mini and max](./SCREENSHOT//q1MinAndMaxNumber.png)
 
+
+Q2  associative array of two dimensions 
+
+The $colors variable contains three main categories:
+
+Light
+Normal
+Dark
+
+Each category contains three colors:
+
+Red
+Green
+Blue
+
+The PHP foreach loop is used to read the array data and display it in an HTML table.
+
+1. Array
+
+An array stores multiple values in one variable.
+
+$colors = array(...);
+2. Multidimensional Array
+
+An array inside another array.
+
+"Light" => array(
+    "red" => "light red"
+)
+3. Associative Array
+
+The array uses named keys instead of numeric indexes.
+
+"red" => "light red"
+
+Here:
+
+red = key
+light red = value
+4. foreach
+
+foreach is used to loop through an array.
+
+foreach ($colors as $row => $columns)
+
+It gets each category and its inner array.
+
+
+foreach ($colors as $row => $columns)
+$row
+
+Contains the main category:
+
+Light
+Normal
+Dark
+$columns
+
+Contains the colors inside each category:
+
+red
+green
+blue
+
+For example:
+
+$columns["red"]
+
+returns:
+
+light red
+
+when $row is Light.
+
+![foreacth ](./SCREENSHOT//foreachColrs.png)
+
+
+
+
+Q3:
+
+The student information includes:
+Student ID
+Student Name
+Phone Number
+Address
+
+Each student is represented by an associative array.
+
+For example:
+
+array(
+    "ID" => "CA221",
+    "Name" => "fadir mumin",
+    "Phone" => "0645430403",
+    "Address" => "Laba Dhagax, Wardhiigley"
+)
+The keys are:
+
+ID
+Name
+Phone
+Address
+
+Each key has a corresponding value.
+
+For example:
+
+$row["Name"]
+
+returns the student's name.
+
+![The student information is stored in the $Student variable:](./SCREENSHOT//q3.png)
+Each student is represented by an associative array.
+
+
+important concept
+
+1. Array
+
+An array stores multiple values in one variable.
+
+$Student = array(...);
+2. Multidimensional Array
+
+An array that contains other arrays.
+
+$Student = array(
+    array(...),
+    array(...),
+    array(...)
+);
+3. Associative Array
+
+An array that uses named keys.
+
+"Name" => "fadir mumin"
+
+Here:
+
+Name = key
+fadir mumin = value
+4. Foreach
+
+foreach is used to repeat an operation for every item in an array.
+
+foreach ($Student as $row)
+5. Array Access
+
+We can access a value using its key:
+
+$row["Name"]
+$row["Phone"]
+$row["Address"]

@@ -15,66 +15,53 @@
     </style>
 </head>
 <body>
-    
-    <?php
+   <?php
 
-    $colors = array(
-        "light"=> array(
-            "red"=>"light red",
-            "green" => "light green",
-            "blue" => "light blue"
-        ),
-        "Normal" => array(
-            "red" => "normal red",
-            "green" => "normal green",
-            "blue" => "normal blue"
-        ),
+$colors = array(
+    "Light" => array(
+        "red" => "light red",
+        "green" => "light green",
+        "blue" => "light blue"
+    ),
 
-        "Dark" => array (
-            "red" => "dark red",
-            "green" => "dark green" ,
-            "blue" => "dark blue"
-        ),
-    );
-    // foreach ($colors as $row => $colums){
-    //     foreach($colums as $colum => $value){
-    //         echo $value . "";
-    //     }
-    //     echo "<br>";
-    // }
-    
-    ?>
-   
-    <table border="1">
+    "Normal" => array(
+        "red" => "normal red",
+        "green" => "normal green",
+        "blue" => "normal blue"
+    ),
 
-    <tr>
+    "Dark" => array(
+        "red" => "dark red",
+        "green" => "dark green",
+        "blue" => "dark blue"
+    )
+);
+
+echo "<table border='1'>";
+
+echo "<tr>
         <th></th>
         <th>Red</th>
         <th>Green</th>
         <th>Blue</th>
-    </tr>
+      </tr>";
 
-    <tr>
-        <td>Light</td>
-        <td><?php echo $colors["light"]["red"]; ?></td>
-        <td><?php echo $colors["light"]["green"]; ?></td>
-        <td><?php echo $colors["light"]["blue"]; ?></td>
-    </tr>
+foreach ($colors as $row => $columns) {
 
-    <tr>
-        <td>Normal</td>
-        <td><?php echo $colors["Normal"]["red"]; ?></td>
-        <td><?php echo $colors["Normal"]["green"]; ?></td>
-        <td><?php echo $colors["Normal"]["blue"]; ?></td>
-    </tr>
+    echo "<tr>";
 
-    <tr>
-        <td>Dark</td>
-        <td><?php echo $colors["Dark"]["red"]; ?></td>
-        <td><?php echo $colors["Dark"]["green"]; ?></td>
-        <td><?php echo $colors["Dark"]["blue"]; ?></td>
-    </tr>
+    echo "<td><b>$row</b></td>";
 
-</table>
+    echo "<td>" . $columns["red"] . "</td>";
+    echo "<td>" . $columns["green"] . "</td>";
+    echo "<td>" . $columns["blue"] . "</td>";
+
+    echo "</tr>";
+}
+
+echo "</table>";
+
+?>
+
 </body>
 </html>
