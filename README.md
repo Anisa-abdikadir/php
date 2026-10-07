@@ -1,116 +1,222 @@
-PHP Practice Concepts - week One
+Web Application Development - PHP & MySQL
+Course Information
+Course Title: Web Application Development - PHP & MySQL
+Faculty: Computer & Information Technology
 
-this folder  contains  week 1  practice from the course php
+Prerequisites:
 
+HTML & CSS
+Programming Fundamentals
+JavaScript
+Instructor(s):
 
-TOPIC COVERED
+Yahye Ali Isse
+Course Description
+Web Application Development - PHP & MySQL introduces students to the development of dynamic, database-driven web applications using PHP programming language and MySQL database management system.
 
-1. PHP Introduction
+The course covers server-side programming, web forms processing, database design, SQL operations, AJAX-based interaction, REST API development, authentication, security practices, MVC architecture, and Laravel framework fundamentals.
 
-.what is php ?
-.How php  works with a web server ?
-.php file Extention .php 
-.Basic php  syntax
-.How to run php using XAMPP
-.diffrent Echo and print
+Students will apply theoretical concepts through practical programming exercises and develop a complete PHP & MySQL-based web application project.
 
-2. Echo and Print
+Course Objectives
+By the end of this course, students will be able to:
 
-I learned how to display output in PHP using:
+Understand web application development concepts and PHP/MySQL environments.
+Develop dynamic and interactive web pages using PHP.
+Work with PHP variables, data types, operators, control structures, arrays, functions, and reusable files.
+Design and process web forms with client-side and server-side validation.
+Create interactive applications using jQuery, AJAX, and JSON.
+Understand relational database concepts and MySQL database design.
+Write SQL queries including:
+SELECT
+INSERT
+UPDATE
+DELETE
+CREATE
+JOIN operations
+Connect PHP applications securely with MySQL databases.
+Develop CRUD-based applications.
+Build REST APIs using PHP and MySQL.
+Implement authentication, authorization, cookies, and sessions.
+Understand MVC architecture and Laravel application structure.
+Design and deploy complete database-driven web applications.
+Technologies Used
+Frontend
+HTML5
+CSS3
+JavaScript
+jQuery
+AJAX
+JSON
+Backend
+PHP
+Laravel Framework
+Database
+MySQL
+SQL
+Development Tools
+Visual Studio Code
+XAMPP / Laragon
+phpMyAdmin
+Git & GitHub
+Course Modules
+Module 1: Introduction to PHP & MySQL
+Duration: 1 Week
 
-.echo
-.print
+Topics:
 
-Example:
+Introduction to web applications
+Client-server architecture
+PHP environment setup
+PHP syntax basics
+Running PHP applications
+Module 2: PHP Fundamentals & Control Structures
+Duration: 1 Week
 
-<?php
+Topics:
 
-  print "welcome to php ";
-  echo "hello word";
+Variables
+Data types
+Operators
+Conditional statements
+Loops
+Basic PHP programming
+Module 3: Arrays, Functions & Include Files
+Duration: 2 Weeks
 
-?>
+Topics:
 
-3. syntax of Variable
+Indexed arrays
+Associative arrays
+Multidimensional arrays
+PHP functions
+Creating reusable components
+Include and require files
+Module 4: Advanced PHP Forms & Validation
+Duration: 2 Weeks
 
-I learned how to create and use variables in PHP.
+Topics:
 
-Example:
-<?php
+HTML forms with PHP
+GET and POST methods
+Form processing
+Input validation
+Error handling
+Application workflow
+Module 5: jQuery + AJAX + Interactive PHP Applications
+Duration: 2 Weeks
 
-$name="anisa";
-echo  "my name is $name";
+Topics:
 
-?>
+jQuery fundamentals
+AJAX requests
+JSON data exchange
+Dynamic page updates
+Building interactive web applications
+Module 6: MySQL Database Design
+Duration: 2 Weeks
 
+Topics:
 
-4. If, Elseif and Else
+Database concepts
+Relational databases
+Database design
+Tables and relationships
+SQL commands
+CRUD operations
+Connecting PHP with MySQL
+Module 7: REST API Development with PHP & MySQL
+Duration: 2 Weeks
 
-I learned how to make decisions using conditional statements.
+Topics:
 
-Example:
+API concepts
+REST architecture
+HTTP methods
+JSON responses
+Creating APIs using PHP
+Consuming APIs
+Module 8: Security, Authentication & Architecture
+Duration: 1 Week
 
-<?php
+Topics:
 
-  $Age =20;
-    $Grade =4;
+Cookies
+Sessions
+Authentication
+Authorization
+Password security
+Web application security
+Performance optimization
+Module 9: MVC Architecture & Modern PHP Structure
+Duration: 1 Week
 
-    if($Age > 20);
-        elseif ($Grade <2)
+Topics:
 
-        echo "poor";
+MVC concepts
+Model
+View
+Controller
+Application organization
+Modern PHP project structure
+Module 10: Laravel Framework
+Duration: 2 Weeks
 
+Topics:
 
-    else
-        echo "adualt";
+Laravel installation
+Laravel architecture
+Routing
+Controllers
+Blade templates
+Migrations
+Eloquent ORM
+Building Laravel applications
+Assessment
+Assessment	Weight
+Labs, Quizzes & Assignments	20%
+Midterm Exam	30%
+Final Exam	30%
+Final Project	20%
+Final Project
+Students will design and develop a complete database-driven web application.
 
-    if($Age >20){
+Examples:
 
-    }elseif ($Grade <2)
-    echo "poor";
-    else
-        echo "adualt";
+Learning Management System
+Hospital Management System
+E-Commerce System
+Inventory Management System
+Student Management System
+Online Booking System
+Project Requirements:
 
-        ?>
+User authentication
+Database design
+CRUD operations
+Form validation
+Responsive interface
+Security implementation
+Documentation
+Learning Outcomes
+After completing this course, students can:
 
-5. Switch Statement
+✅ Develop dynamic PHP applications
+✅ Create and manage MySQL databases
+✅ Write SQL queries
+✅ Build CRUD applications
+✅ Process secure web forms
+✅ Develop REST APIs
+✅ Implement authentication systems
+✅ Apply MVC architecture
+✅ Understand Laravel fundamentals
+✅ Build professional database-driven applications
 
-I learned how to use switch to check different values.
-
-Example:
-
-<?php
-
-   $Marks = 87;
-
-    switch ($Marks>=90)
-    {
-        echo "excellent";
-        break;
-        case $Marks >=80:
-        echo "very good";
-        case ($Marks >=50)
-        echo "minimal pass";
-
-        default :
-                echo "not pass";
-
-    }
-    
-?>
-
-Screenshot Concept
-
-display output use echo and print 
-
-![php prind and echo](./Screenshot//echo%20and%20print.png)
-
- Constant : A constant is a value that cannot be changed after it has been defined.
-![Constant](./Screenshot//const.png)
-
-Switch: statement is used to execute different code depending on a value.
-![Swich and case](./Screenshot//swich%20and%20case.png)
-
-
-If, Elseif and Else: if, elseif, and else are used to make decisions based on conditions
-![if,elseif and else](./Screenshot//if%20and%20else.png)
+Recommended Textbook
+Title: Learning PHP, MySQL & JavaScript
+Author: Robin Nixon
+Publisher: O'Reilly Media Inc
+Edition: 6th Edition
+Year: 2018
+ISBN: 9781491978917
 

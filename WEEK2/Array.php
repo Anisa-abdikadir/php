@@ -7,73 +7,78 @@
 </head>
 <body>
     <?php
-    // $collection = array(
-    //     "id"=> "123",
-    //     "class" => "ca2313",
-    //     "mobile" => "636173",
+
+// Indexed Array
+
+    // $info =array(
+    //     "c1231115",
+    //     "anisa abdikadir",
+    //     20,
+    //     "dharkeyley",
+    //     "single"
     // );
-    // echo "$collection ["id"]",
-//student waa test
-// $student = [
-//     "name" => "Anisa",
-//     "age" => 20,
-//     "city" => "Mogadishu"
-// ];
-// foreach ($student as $key => $value) {
-//     echo $key . " : " . $value . "<br>";
-// }
+    // echo "array value using for loop : <br>";
+    // for($i=0; $i<count($info); $i++){
+    //     echo $info[$i]. "<br>";
+    // } 
 
-// // obly dipalay valu
-$student = [
-    "name" => "Anisa",
-    "age" => 20,
-    "city" => "Mogadishu"
-];
+    // $number= array(20,30,40);
+    // $total =0;
+    // echo "array element are : <br>";
+    // foreach($number as $n)
+    //     // echo ("$n ,") ;   //sinfle quetion hda galisid wx '' ku dhaxjiro kuso dabaca
+    // //  balse hda "" dhahdid wuxu kuso bandhiga value uu hayo wx kujiro
+    //     $total +=$n;
 
-foreach ($student as $key) {
-    echo $key . "<br>";
-}
-
-// $info =array (
-//     "id" =>"c122",
-//     "name"=>"anisa",
-// )
-
-//  foreach ($info as $key) {
-//     echo $value . "<br>";
-// }
+    //     echo "<br> total of element is : $total"; //ina () dhax gilisid qoralka waa option
 
 
+//     $info = array (
+//      "id"=>"c1231115",
+//      "name"=>"ansia abdikadir aweis",
+//      "age"=>20,
+//      "address"=>"dharkeyley",
+//      "status"=>"single",
+//     "weight"=> 20
+// ); 
 
-    // $collection[0]=2;
-    // $collection[1]="hellow";
-    //     echo "<pre>"
-    //         // print_r ($collection)
-    //             echo var_dump($collection);
+//         echo "<pre>";
+//         echo "Information about the person: <br>";
+//         print_r($info);
+//         // var_dump($info);  // wxy noqoshe data type and length
+//         echo "</pre>";  //pre wuuxu ilalina spacing and formating
+
+//         foreach($info as $I)
+//             echo("$I <br>");
+
+//         echo "<br> prin value and key <br>";
+//         foreach ($info as $k =>$v)
+//             echo "[$k] : [$v]";
+//         echo "<br>";
+//         foreach($info as $v)
+//             echo " <br> obly value [$v]"
 
 
-    //    echo "</pre>"
-    // print_r ($collection)
-    // echo var_dump($collection);
+        // multidimnsional array
+        $student = array (
+            array ("salma abdikadir",2002,"dharkeyley", "618194011"),
+            array("maxmed ibrahim awis", 2008, "afgiy","728722" ),
+
+        );
+        echo "prin key and value <br>";
+        // foreach($student as $k)
+        //     echo ("$k[0], $k[1], $k[2]<br>")
+
+        // echo "Array elements are:<br>";
+
+            foreach ($student as $s) {
+                 foreach ($s as $v)
+                     echo ("$v<br>");
+            }
+
+          
 
 
-
-    // diplay the array using var_dum fuction
-    // for($collection as $list){
-    //     echo "$list <br>";
-    // }
-    // echo "$collection[0]";
-    //     echo "$collection[1]";
-    // echo "$collection[2]";
-
-    // var_dump($collection);
-    // // dect numeric index  linrear 
-
-    // //create array and inti one tine
-    // $nums= arrat(2,"anisa",90,0)
-    // $nums [] ="waa aray"; ///godka udambyo lagu add items godka udmaebyo ku dar
-    // echo "<br>";
-    // var_dump($nums)
     ?>
 </body>
 </html>
